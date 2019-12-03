@@ -1,5 +1,8 @@
 {
   "name": "emojicode-playground",
   "version": "1.0.0",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "catsimulator": "^1.0.0"
+  }
 }

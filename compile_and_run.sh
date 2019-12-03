@@ -2,6 +2,12 @@
 
 filename=${1%.*}
 
-mkdir -p ./build \
-&& emojicodec ./${filename}.emojic -o ./build/${filename} \
-&& ./build/${filename} $(< ./${filename}.args)
+rm -rf ./build
+mkdir -p ./build
+
+emojicodec ./${filename}.emojic -o ./build/${filename}
+
+[ -f ./${filename}.args ] \
+&& ./build/${filename} $(< ./${filename}.args) \
+|| ./build/${filename}
+
