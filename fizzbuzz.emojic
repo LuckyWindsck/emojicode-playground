@@ -1,0 +1,42 @@
+🏁🍇
+  💭Initializing variables
+  🔤, 🔤➡️seperator
+  🔤Fizz🔤➡️Fizz
+  🔤Buzz🔤➡️Buzz
+  🔤FizzBuzz🔤➡️FizzBuzz
+  1➡️start
+  101➡️end
+
+  💭Initializing am empty list with type of string
+  🆕🍨🐚🔡🍆🐸❗️➡️🖍🆕list
+
+  💭Loop from 1 to 100
+  🔂i🆕⏩⏩start end❗️🍇
+    💭If i is multiple of 15
+    ↪️i🚮15🙌0🍇
+      💭append Fizzbuzz to list
+      🐻list FizzBuzz❗️
+    🍉
+    💭Elseif i is multiple of 3
+    🙅↪️i🚮3🙌0🍇
+      💭append Fizz to list
+      🐻list Fizz❗️
+    🍉
+    💭Elseif i is multiple of 5
+    🙅↪️i🚮5🙌0🍇
+      💭append Buzz to list
+      🐻list Buzz❗️
+    🍉
+    💭Else
+    🙅🍇
+      💭Convert i with base 10 to string and append it to list
+      🔡i 10❗️➡️num
+      🐻list num❗️
+    🍉
+  🍉
+
+  💭Join the list with seperator
+  🆕🔡🍨list seperator❗️➡️ output
+  💭Print output
+  😀🍪🔤Output: 🔤 output🍪❗️
+🍉
