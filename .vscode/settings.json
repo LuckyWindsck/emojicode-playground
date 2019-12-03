@@ -1,0 +1,11 @@
+{
+  "editor.fontFamily": "Monaco, 'Courier New', monospace",
+  "saveAndRun": {
+    "commands": [
+      {
+        "match": ".(?:emojic|args)$",
+        "cmd": "./compile_and_run.sh ${fileBasename}",
+      }
+    ]w
+  }
+}
