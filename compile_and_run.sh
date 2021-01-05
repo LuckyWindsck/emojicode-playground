@@ -11,3 +11,5 @@ emojicodec ./${filename}.emojic -o ./build/${filename}
 && ./build/${filename} $(< ./${filename}.args) \
 || ./build/${filename}
 
+[ -f ./build/${filename} ] && rm ./build/${filename}
+
